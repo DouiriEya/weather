@@ -1,0 +1,137 @@
+h1,h2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(237, 125, 81);
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background: #1c1919;
+}
+
+.main {
+  text-align: center;
+}
+
+.header {
+  margin-top: 50px;
+}
+.input {
+  text-align: center;
+  margin: 100px auto;
+  color: blue;
+}
+
+.input[type="submit"] {
+  padding: 15px 30px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.input input[type="text"] {
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  position: relative; 
+  width: 50%;
+  height: 40vh;
+  margin: 50px auto;
+  border-radius: 2px;
+}
+
+.card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.card h1,
+.card p {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(12, 11, 11);
+  font-weight: bold
+}
+.touta {
+  width: 200px; 
+  height: 200px; 
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.touta img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+}
+.icon-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+}
+
+.icon {
+  width: 40px; 
+  height: auto;
+  margin-right: 10px; }
+
+.input_text {
+  width: 200px; 
+  padding: 10px;
+  border-radius: 20px; 
+  border: 1px solid #ccc; 
+  position: relative; 
+  font-size: 16px;
+}
+
+.input_text::placeholder {
+  color: #aaa;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: sparkle 2s infinite; 
+}
+
+@keyframes sparkle {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+.submit {
+  padding: 10px 20px;
+  background-color: #4CAF50; 
+  color: white; 
+  border: none; 
+  border-radius: 20px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+};
+
+
+
